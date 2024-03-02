@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Weather App</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="UTF-8">
+        
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -10,10 +12,13 @@
                 <input type="search" spellcheck="false" placeholder="Enter City Name">
                 <button><center><img src="D:/AI Project/javascript+html+css/weather website/weather_app_images/images/search.png"></center></button>
             </div>
+          <div>
+            <p class="error">Invalid City Name</p>
+          </div> 
             <div class="weather">
-              <img src="D:/AI Project/javascript+html+css/weather website/weather_app_images/images/drizzle.png" class="weather_icon">
-              <h1 class="temp">20°C</h1>
-              <h2 class="city">New York</h2>
+              <img src="" class="weather_icon">
+              <h1 class="temp"></h1>
+              <h2 class="city"></h2>
               <div class="details">
                 <div class="col">
                   <img src="D:/AI Project/javascript+html+css/weather website/weather_app_images/images/humidity.png">
@@ -23,7 +28,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <img src="D:\AI Project\javascript+html+css\weather website\weather_app_images\images\wind.png">
+                  <img src="D:/AI Project/javascript+html+css/weather website/weather_app_images/images/wind.png">
                   <div>
                     <p class="wind">15 km/h</p>
                     <p>Wind Speed</p>
@@ -32,5 +37,6 @@
               </div>
             </div>
         </div>
+      <script src="script.js"></script>
     </body>
 </html>
